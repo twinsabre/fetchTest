@@ -17,7 +17,7 @@ Run this command from a powershell command window:
 .\pyserver.ps1
 which starts the server.  The powershell script permissions should be in bypass, or you can just run the command from a command line.
 From a windows cmd window or cygwin terminal window, run
-.\client.bat
+./client.bat
 This creates the POST request and takes the email data from emailfile.
 The response should be "5" as the unique email addresses.
 
